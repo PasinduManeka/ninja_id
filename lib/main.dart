@@ -34,6 +34,8 @@ class NinjaCard extends StatelessWidget {
                 letterSpacing: 2.0,
               ),
             ),
+            //added the space between the widgets.
+            SizedBox(height:10.0,),
             Text(
               'Pasindu Herath',
               style: TextStyle(
@@ -43,6 +45,7 @@ class NinjaCard extends StatelessWidget {
                 fontWeight: FontWeight.bold,
               ),
             ),
+            SizedBox(height:30.0,),
             Text(
                'Name',
               style: TextStyle(
